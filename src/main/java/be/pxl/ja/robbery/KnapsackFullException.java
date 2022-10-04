@@ -1,4 +1,7 @@
 package be.pxl.ja.robbery;
 
-public class KnapsackFullException {
+public class KnapsackFullException extends Exception{
+    public KnapsackFullException(String message){
+        super(message);
+    }
 }
