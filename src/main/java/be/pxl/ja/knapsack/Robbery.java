@@ -1,11 +1,11 @@
-package be.pxl.ja.robbery;
+package be.pxl.ja.knapsack;
 
-import be.pxl.ja.knapsack.Knapsack;
-import be.pxl.ja.knapsack.KnapsackUtil;
+
+import be.pxl.ja.robbery.Product;
 
 public class Robbery {
     public static void main(String[] args) {
-        Knapsack knapsack = new Knapsack(35);
+        Knapsack<Product> knapsack = new Knapsack(35);
 
         Shop shop = new Shop();
         shop.add(new Product("stereo", 30, 3000));

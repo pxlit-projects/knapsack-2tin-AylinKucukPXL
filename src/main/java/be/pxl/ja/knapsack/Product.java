@@ -1,6 +1,4 @@
-package be.pxl.ja.robbery;
-
-import be.pxl.ja.knapsack.Item;
+package be.pxl.ja.knapsack;
 
 public class Product implements Item, Comparable<Product>{
 
